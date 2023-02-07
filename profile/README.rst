@@ -1,2 +1,3 @@
-.. image:: banner.png
-    :alt: arteklabs banner
+.. figure:: banner.png
+   :width: 90%
+   :align: center
