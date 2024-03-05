@@ -19,7 +19,7 @@ body:
       required: true
 
   - type: textarea
-    id: business-value
+    id: value
     attributes:
       label: Business Value
       placeholder: Describe the business value the feature is enabling
@@ -27,20 +27,12 @@ body:
       required: true
 
   - type: textarea 
-    id: parents
+    id: neighbours
     attributes:
-      label: Children
+      label: neighbours
       placeholder: List the IDs of the children
     validations:
-      required: true
-
-  - type: textarea 
-    id: children
-    attributes:
-      label: Children
-      placeholder: List the IDs of the children
-    validations:
-      required: true
+      required: false
 
   - type: textarea
     id: dependencies
@@ -48,4 +40,4 @@ body:
       label: Dependencies
       placeholder: List the issues on which this issue depends
     validations:
-      required: true
+      required: false
