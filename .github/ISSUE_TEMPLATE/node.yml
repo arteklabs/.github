@@ -1,0 +1,51 @@
+name: node
+title: "[node]: "
+description: "Create a new node"
+labels: ""
+assignees: ""
+projects: ["Project-Babel/14"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Node Issue
+
+  - type: textarea
+    id: about
+    attributes:
+      label: About
+      placeholder: Describe what the issue is about
+    validations:
+      required: true
+
+  - type: textarea
+    id: business-value
+    attributes:
+      label: Business Value
+      placeholder: Describe the business value the feature is enabling
+    validations:
+      required: true
+
+  - type: textarea 
+    id: parents
+    attributes:
+      label: Children
+      placeholder: List the IDs of the children
+    validations:
+      required: true
+
+  - type: textarea 
+    id: children
+    attributes:
+      label: Children
+      placeholder: List the IDs of the children
+    validations:
+      required: true
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      placeholder: List the issues on which this issue depends
+    validations:
+      required: true
