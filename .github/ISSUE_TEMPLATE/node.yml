@@ -1,8 +1,8 @@
 name: node
 title: "[node]: "
 description: "Create a new node"
-labels: ""
-assignees: ""
+labels: "enhancement"
+assignees: "diogobaltazar"
 projects: ["Project-Babel/14"]
 body:
   - type: markdown
