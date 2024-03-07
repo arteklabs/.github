@@ -41,3 +41,11 @@ body:
       placeholder: List the issues on which this issue depends
     validations:
       required: false
+
+  - type: textarea
+    id: dod
+    attributes:
+      label: Definition of done
+      placeholder: List the conditions of the definition of done
+    validations:
+      required: false
