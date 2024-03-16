@@ -12,8 +12,11 @@ body:
     id: about
     attributes:
       label: About
-      value: test
-      placeholder: Describe what the issue is about
+      placeholder: |
+        - descript
+        - the issue
+        - in bullet
+        - points
     validations:
       required: true
 
