@@ -41,29 +41,17 @@ body:
       label: Definition of Ready
       options:
         - label: (AC1) clear-acceptance-criteria
-          required: true
         - label: (AC2) business-value
-          required: true
         - label: (AC3) no-dependencies
-          required: true
         - label: (AC4) no-blockers
-          required: true
         - label: (AC5) feasibility-assessed
-          required: true
         - label: (AC6) resource-availability
-          required: true
         - label: (AC7) prioritization
-          required: true
         - label: (AC8) small-enough
-          required: true
         - label: (AC9) clarity
-          required: true
         - label: (AC10) milestone
-          required: true
         - label: (AC11) iteration
-          required: true
         - label: (AC12) ownership
-          required: true
     validations:
       required: true
 
@@ -97,7 +85,7 @@ body:
       value: |
         # README
 
-        ## Neighbouring nodes
+        **Neighbouring nodes**
         
         Add from suffixes:
 
@@ -105,7 +93,7 @@ body:
         - `[parent]`: the neighbour is a parent
         - `[child]`: the node is a child
 
-        ## AC - Acceptance Criteria
+        **AC - Acceptance Criteria**
 
         Define the criteria (checklist) that must be met for the task to be considered `Done`. The criteria must be `SMART`, *i.e.*:
 
@@ -115,7 +103,7 @@ body:
         - `relevant`
         - `time-bound`
 
-        ## DoR - Defition of Ready
+        **DoR - Defition of Ready**
 
         - (AC1) `clear-acceptance-criteria`: The user task must have specific acceptance criteria that define the boundary of the task’s requirements and how they will be verified.
         - (AC2) `business-value`: The task must deliver a clear value to the user or customer.
@@ -130,7 +118,7 @@ body:
         - (AC11) `iteration`: The task has been assigned a a milestone iteration
         - (AC112) `ownership`: The task has assigned ownership to a team member
 
-        ## DoD - Definition of Done
+        **DoD - Definition of Done**
 
         - (DOD1) `code-complete` The code for the user task is fully written and checked into the version control system.
         - (DOD2) `code-reviewd` The code has been reviewed by another team member, and any necessary changes have been made.
