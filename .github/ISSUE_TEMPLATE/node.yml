@@ -41,29 +41,17 @@ body:
       label: Definition of Ready
       options:
         - label: (AC1) clear-acceptance-criteria
-          required: true
         - label: (AC2) business-value
-          required: true
         - label: (AC3) no-dependencies
-          required: true
         - label: (AC4) no-blockers
-          required: true
         - label: (AC5) feasibility-assessed
-          required: true
         - label: (AC6) resource-availability
-          required: true
         - label: (AC7) prioritization
-          required: true
         - label: (AC8) small-enough
-          required: true
         - label: (AC9) clarity
-          required: true
         - label: (AC10) milestone
-          required: true
         - label: (AC11) iteration
-          required: true
         - label: (AC12) ownership
-          required: true
         - label: (AC13) branch
     validations:
       required: true
@@ -74,21 +62,13 @@ body:
       label: Definition of done
       options:
         - label: (DOD1) code-complete
-          required: true
         - label: (DOD2) code-reviewed
-          required: true
         - label: (DOD3) unit-tests
-          required: true
         - label: (DOD4) integration-tests
-          required: true
         - label: (DOD5) functional-tests
-          required: true
         - label: (DOD6) docs
-          required: true
         - label: (DOD7) known-bugs
-          required: true
         - label: (DOD8) sandbox-deploy
-          required: true
     validations:
       required: true
 
