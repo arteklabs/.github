@@ -48,13 +48,21 @@ body:
       label: Definition of done
       options:
         - label: (DOD1) code-complete
+          required: true
         - label: (DOD2) code-reviewed
+          required: true
         - label: (DOD3) unit-tests
+          required: true
         - label: (DOD4) integration-tests
+          required: true
         - label: (DOD5) functional-tests
+          required: true
         - label: (DOD6) docs
+          required: true
         - label: (DOD7) known-bugs
+          required: true
         - label: (DOD8) sandbox-deploy
+          required: true
     validations:
       required: true
 
