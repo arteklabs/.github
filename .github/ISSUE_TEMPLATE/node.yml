@@ -48,16 +48,14 @@ body:
       label: Definition of done
       description: Complete where it applies, add node specific `dod`.
       options:
-        - label: Code Complete: The code for the user task is fully written and checked into the version control system.
-        - label: Code Reviewed: The code has been reviewed by another team member, and any necessary changes have been made.
-        - label: Unit Tests Written and Passing: Unit tests have been written for the new code, and all tests are passing.
-        - label: Integration Testing: The code integrates correctly with the existing system, and any integration tests are passing.
-        - label: Functional Testing: The user task has been tested against its acceptance criteria, and it meets the expected functionality.
-        - label: Documentation: Any necessary documentation has been updated or completed. This could include inline code comments, external technical documentation, or end-user documentation.
-        - label: Security: The new code has been checked for security issues, and any necessary security testing has been completed.
-        - label: No Known Bugs: The task does not have any known bugs or if it does, they have been properly captured in a separate issue, if not fixed;
-        - label: Deployed to Sandbox: The code has been deployed to a staging environment that closely resembles production.
-        - label: Ready for Production: The task is verified to be ready for deployment to the production environment.
+        - label: `code-complete` The code for the user task is fully written and checked into the version control system.
+        - label: `code-reviewd` The code has been reviewed by another team member, and any necessary changes have been made.
+        - label: `unit-tests` Unit tests have been written for the new code, and all tests are passing.
+        - label: `integration-tests` The code integrates correctly with the existing system, and any integration tests are passing.
+        - label: `functional-tests` The user task has been tested against its acceptance criteria, and it meets the expected functionality.
+        - label: `docs` Any necessary documentation has been updated or completed. This could include inline code comments, external technical documentation, or end-user documentation.
+        - label: `known-bugs` The task does not have any known bugs or if it does, they have been properly captured in a separate issue, if not fixed;
+        - label: `sandbox-deploy` The code has been deployed to a staging environment that closely resembles production.
     validations:
       required: true
 
