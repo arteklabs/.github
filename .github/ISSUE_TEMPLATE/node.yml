@@ -51,7 +51,6 @@ body:
         - label: docs
         - label: known-bugs
         - label: sandbox-deploy
-      description: |
     validations:
       required: true
 
