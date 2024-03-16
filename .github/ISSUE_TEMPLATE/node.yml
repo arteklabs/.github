@@ -3,28 +3,19 @@ description: "elon-2 gh-issue"
 assignees: "diogobaltazar"
 projects: ["projects/2"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        elon-2 Node
-
   - type: textarea
     id: about
     attributes:
       label: About
-      placeholder: |
-        - descript
-        - the issue
-        - in bullet
-        - points
+      description: Node description
     validations:
       required: true
 
   - type: textarea
     id: value
     attributes:
-      label: Business Value
-      placeholder: Describe the business value the feature is enabling
+      label: Value
+      placeholder: The value that the node is providing overall
     validations:
       required: true
 
@@ -36,18 +27,12 @@ body:
     validations:
       required: false
 
-  - type: textarea
-    id: dependencies
-    attributes:
-      label: Dependencies
-      placeholder: List the issues on which this issue depends
-    validations:
-      required: false
-
-  - type: textarea
-    id: dod
-    attributes:
-      label: Definition of done
-      placeholder: List the conditions of the definition of done
-    validations:
-      required: false
+- type: checkboxes
+  id: dod
+  attributes:
+    label: Definition-of-done
+    description: You may select more than one.
+    options:
+      - label: Orange cat (required. Everyone likes orange cats.)
+        required: true
+      - label: **Black cat**
