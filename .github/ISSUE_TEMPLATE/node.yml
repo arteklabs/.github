@@ -82,8 +82,6 @@ body:
       value: |
         # README
 
-        Read below on how to complete the information for this node 
-
         ## Neighbouring nodes
         
         Add from suffixes:
@@ -92,30 +90,30 @@ body:
         - `[parent]`: the neighbour is a parent
         - `[child]`: the node is a child
 
-        ## Acceptance Criteria
+        ## AC - Acceptance Criteria
 
         Define the criteria (checklist) that must be met for the task to be considered `Done`. The criteria must be `specific`, `measurable`, `achievable`, `relevant`, and `time-bound` (SMART).
 
-        ## Defition of Ready
+        ## DoR - Defition of Ready
 
-        - `clear-acceptance-criteria`: The user task must have specific acceptance criteria that define the boundary of the task’s requirements and how they will be verified.
-        - `business-value`: The task must deliver a clear value to the user or customer.
-        - `no-dependencies`: Any dependencies on other stories or external factors have been identified and resolved or have a clear plan for resolution.
-        - `no-blockers`: There are no blockers that prevent the task from being worked on.
-        - `feasibility-assessed`: The technical feasibility has been assessed, and any significant architectural concerns have been addressed.
-        - `resource-availability`: The necessary resources (personnel, environments, tools, etc.) are available to work on the task.
-        - `prioritization`: The task is prioritized in the backlog and scheduled for an upcoming sprint.
-        - `small-enough`: The task is small enough to be completed in one sprint, adhering to the team's past velocity and capacity.
-        - `clarity`: The team has a clear understanding of what is expected and there is no ambiguity in the task.
+        - (AC1) `clear-acceptance-criteria`: The user task must have specific acceptance criteria that define the boundary of the task’s requirements and how they will be verified.
+        - (AC2) `business-value`: The task must deliver a clear value to the user or customer.
+        - (AC3) `no-dependencies`: Any dependencies on other stories or external factors have been identified and resolved or have a clear plan for resolution.
+        - (AC4) `no-blockers`: There are no blockers that prevent the task from being worked on.
+        - (AC5) `feasibility-assessed`: The technical feasibility has been assessed, and any significant architectural concerns have been addressed.
+        - (AC6) `resource-availability`: The necessary resources (personnel, environments, tools, etc.) are available to work on the task.
+        - (AC7) `prioritization`: The task is prioritized in the backlog and scheduled for an upcoming sprint.
+        - (AC8) `small-enough`: The task is small enough to be completed in one sprint, adhering to the team's past velocity and capacity.
+        - (AC9) `clarity`: The team has a clear understanding of what is expected and there is no ambiguity in the task.
 
-        ## Definition of Done
+        ## DoD - Definition of Done
 
-        - `code-complete` The code for the user task is fully written and checked into the version control system.
-        - `code-reviewd` The code has been reviewed by another team member, and any necessary changes have been made.
-        - `unit-tests` Unit tests have been written for the new code, and all tests are passing.
-        - `integration-tests` The code integrates correctly with the existing system, and any integration tests are passing.
-        - `functional-tests` The user task has been tested against its acceptance criteria, and it meets the expected functionality.
-        - `docs` Any necessary documentation has been updated or completed. This could include inline code comments, external technical documentation, or end-user documentation.
-        - `known-bugs` The task does not have any known bugs or if it does, they have been properly captured in a separate issue, if not fixed;
-        - `sandbox-deploy` The code has been deployed to a staging environment that closely resembles production.
+        - (DOD1) `code-complete` The code for the user task is fully written and checked into the version control system.
+        - (DOD2) `code-reviewd` The code has been reviewed by another team member, and any necessary changes have been made.
+        - (DOD3) `unit-tests` Unit tests have been written for the new code, and all tests are passing.
+        - (DOD4) `integration-tests` The code integrates correctly with the existing system, and any integration tests are passing.
+        - (DOD5) `functional-tests` The user task has been tested against its acceptance criteria, and it meets the expected functionality.
+        - (DOD6) `docs` Any necessary documentation has been updated or completed. This could include inline code comments, external technical documentation, or end-user documentation.
+        - (DOD7) `known-bugs` The task does not have any known bugs or if it does, they have been properly captured in a separate issue, if not fixed;
+        - (DOD8) `sandbox-deploy` The code has been deployed to a staging environment that closely resembles production.
   
