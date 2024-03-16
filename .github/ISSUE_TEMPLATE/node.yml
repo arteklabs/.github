@@ -41,17 +41,30 @@ body:
       label: Definition of Ready
       options:
         - label: (AC1) clear-acceptance-criteria
+          required: true
         - label: (AC2) business-value
+          required: true
         - label: (AC3) no-dependencies
+          required: true
         - label: (AC4) no-blockers
+          required: true
         - label: (AC5) feasibility-assessed
+          required: true
         - label: (AC6) resource-availability
+          required: true
         - label: (AC7) prioritization
+          required: true
         - label: (AC8) small-enough
+          required: true
         - label: (AC9) clarity
+          required: true
         - label: (AC10) milestone
+          required: true
         - label: (AC11) iteration
+          required: true
         - label: (AC12) ownership
+          required: true
+        - label: (AC13) branch
     validations:
       required: true
 
@@ -117,6 +130,7 @@ body:
         - (AC10) `milestone`: The task has been assigned a milestone
         - (AC11) `iteration`: The task has been assigned a a milestone iteration
         - (AC112) `ownership`: The task has assigned ownership to a team member
+        - (AC112) `branch`: The task will be completed in its own branch
 
         **DoD - Definition of Done**
 
