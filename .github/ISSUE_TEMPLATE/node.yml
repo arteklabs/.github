@@ -26,13 +26,6 @@ body:
     validations:
       required: false
 
-  - type: textarea
-    id: ac
-    attributes:
-      label: Acceptance Criteria
-    validations:
-      required: true
-
   - type: checkboxes
     id: ac
     attributes:
