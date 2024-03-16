@@ -49,6 +49,9 @@ body:
         - label: (AC7) prioritization
         - label: (AC8) small-enough
         - label: (AC9) clarity
+        - label: (AC10) milestone
+        - label: (AC11) iteration
+        - label: (AC12) ownership
     validations:
       required: true
 
@@ -109,8 +112,11 @@ body:
         - (AC5) `feasibility-assessed`: The technical feasibility has been assessed, and any significant architectural concerns have been addressed.
         - (AC6) `resource-availability`: The necessary resources (personnel, environments, tools, etc.) are available to work on the task.
         - (AC7) `prioritization`: The task is prioritized in the backlog and scheduled for an upcoming sprint.
-        - (AC8) `small-enough`: The task is small enough to be completed in one sprint, adhering to the team's past velocity and capacity.
+        - (AC8) `small-enough`: The task is small enough to be completed in one iteration, adhering to the team's past velocity and capacity.
         - (AC9) `clarity`: The team has a clear understanding of what is expected and there is no ambiguity in the task.
+        - (AC10) `milestone`: The task has been assigned a milestone
+        - (AC11) `iteration`: The task has been assigned a a milestone iteration
+        - (AC112) `ownership`: The task has assigned ownership to a team member
 
         ## DoD - Definition of Done
 
