@@ -23,12 +23,6 @@ body:
     id: neighbours
     attributes:
       label: Neighbours
-      description: |
-        Neighbouring nodes
-        Add from suffixes:
-        - `[dep]`: the neighbour is a dependency
-        - `[parent]`: the neighbour is a parent
-        - `[child]`: the node is a child
       placeholder: List the neighbour nodes by `gh-issue-id`
     validations:
       required: false
@@ -63,7 +57,15 @@ body:
     id: readme
     attributes:
       value: |
-        Definition of done
+        ## Neighbouring nodes
+        
+        Add from suffixes:
+
+        - `[dep]`: the neighbour is a dependency
+        - `[parent]`: the neighbour is a parent
+        - `[child]`: the node is a child
+        
+        ## Definition of done
 
         - label: `code-complete` The code for the user task is fully written and checked into the version control system.
         - label: `code-reviewd` The code has been reviewed by another team member, and any necessary changes have been made.
