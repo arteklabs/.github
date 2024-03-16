@@ -46,8 +46,17 @@ body:
     id: dod
     attributes:
       label: Definition of done
-      description: Complete where it applies, add node specific `dod`.
       options:
+        - label: code-complete
+        - label: code-reviewed
+        - label: unit-tests
+        - label: integration-tests
+        - label: functional-tests
+        - label: docs
+        - label: known-bugs
+        - label: sandbox-deploy
+      description: |
+        Complete where it applies:
         - label: `code-complete` The code for the user task is fully written and checked into the version control system.
         - label: `code-reviewd` The code has been reviewed by another team member, and any necessary changes have been made.
         - label: `unit-tests` Unit tests have been written for the new code, and all tests are passing.
