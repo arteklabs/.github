@@ -27,12 +27,4 @@ body:
     validations:
       required: false
 
-- type: checkboxes
-  id: dod
-  attributes:
-    label: Definition-of-done
-    description: You may select more than one.
-    options:
-      - label: Orange cat (required. Everyone likes orange cats.)
-        required: true
-      - label: **Black cat**
+
