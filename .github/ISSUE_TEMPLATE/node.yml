@@ -7,7 +7,6 @@ body:
     id: about
     attributes:
       label: About
-      description: Node description
     validations:
       required: true
 
@@ -15,7 +14,6 @@ body:
     id: value
     attributes:
       label: Value
-      description: Node overall value
       placeholder: The value that the node is providing overall
     validations:
       required: true
@@ -24,7 +22,6 @@ body:
     id: neighbours
     attributes:
       label: Neighbours
-      description: Neighbours list
       placeholder: List the neighbour nodes by `gh-issue-id`
     validations:
       required: false
@@ -33,7 +30,6 @@ body:
     id: ac
     attributes:
       label: Acceptance Criteria
-      description: Complete where it applies, add node specific `ac`.
       value:
     validations:
       required: true
