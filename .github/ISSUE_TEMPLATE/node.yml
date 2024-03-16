@@ -1,7 +1,7 @@
 name: node
 title: "[node]: "
-description: "Create a new node"
-labels: "enhancement"
+description: "elon-2 gh-issue"
+labels: "elon-2:node"
 assignees: "diogobaltazar"
 projects: ["diogo"]
 body:
