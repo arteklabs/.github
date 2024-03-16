@@ -92,7 +92,13 @@ body:
 
         ## AC - Acceptance Criteria
 
-        Define the criteria (checklist) that must be met for the task to be considered `Done`. The criteria must be `specific`, `measurable`, `achievable`, `relevant`, and `time-bound` (SMART).
+        Define the criteria (checklist) that must be met for the task to be considered `Done`. The criteria must be `SMART`, *i.e.*:
+
+        - `specific`
+        - `measurable`
+        - `achievable`
+        - `relevant`
+        - `time-bound`
 
         ## DoR - Defition of Ready
 
