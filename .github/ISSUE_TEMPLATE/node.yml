@@ -59,11 +59,9 @@ body:
     validations:
       required: true
 
-  - type: textarea
+  - type: markdown
     id: readme
     attributes:
-      label: README
-      description: Read below to learn about how to complete the node information
       value: |
         Definition of done
 
@@ -75,6 +73,4 @@ body:
         - label: `docs` Any necessary documentation has been updated or completed. This could include inline code comments, external technical documentation, or end-user documentation.
         - label: `known-bugs` The task does not have any known bugs or if it does, they have been properly captured in a separate issue, if not fixed;
         - label: `sandbox-deploy` The code has been deployed to a staging environment that closely resembles production.
-    validations:
-      required: true
-
+  
