@@ -23,6 +23,7 @@ body:
     id: neighbours
     attributes:
       label: Neighbours
+      description: Neighbours list
       placeholder: List the neighbour nodes by `gh-issue-id`
     validations:
       required: false
