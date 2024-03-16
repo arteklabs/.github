@@ -15,6 +15,7 @@ body:
     id: value
     attributes:
       label: Value
+      description: Node overall value
       placeholder: The value that the node is providing overall
     validations:
       required: true
