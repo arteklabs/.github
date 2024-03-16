@@ -30,7 +30,22 @@ body:
     id: ac
     attributes:
       label: Acceptance Criteria
-      value:
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: dod
+    attributes:
+      label: Acceptance Criteria
+      options:
+        - label: [AC1] clarity
+        - label: [AC2] business-value
+        - label: [AC3] no-dependencies
+        - label: [AC4] no-blockers
+        - label: [AC5] feasibility-assessed
+        - label: [AC6] resource-availability
+        - label: [AC7] prioritization
+        - label: [AC8] small-enough
     validations:
       required: true
 
@@ -39,14 +54,14 @@ body:
     attributes:
       label: Definition of done
       options:
-        - label: code-complete
-        - label: code-reviewed
-        - label: unit-tests
-        - label: integration-tests
-        - label: functional-tests
-        - label: docs
-        - label: known-bugs
-        - label: sandbox-deploy
+        - label: [DOD1] code-complete
+        - label: [DOD2] code-reviewed
+        - label: [DOD3] unit-tests
+        - label: [DOD4] integration-tests
+        - label: [DOD5] functional-tests
+        - label: [DOD6] docs
+        - label: [DOD7] known-bugs
+        - label: [DOD8] sandbox-deploy
     validations:
       required: true
 
@@ -54,6 +69,10 @@ body:
     id: readme
     attributes:
       value: |
+        # README
+
+        Read below on how to complete the information for this node 
+
         ## Neighbouring nodes
         
         Add from suffixes:
@@ -61,15 +80,26 @@ body:
         - `[dep]`: the neighbour is a dependency
         - `[parent]`: the neighbour is a parent
         - `[child]`: the node is a child
-        
+
+        ## Acceptance Criteria
+
+        - `clarity`: The user task must have specific acceptance criteria that define the boundary of the task’s requirements and how they will be verified.
+        - `business-value`: The task must deliver a clear value to the user or customer.
+        - `no-dependencies`: Any dependencies on other stories or external factors have been identified and resolved or have a clear plan for resolution.
+        - `no-blockers`: There are no blockers that prevent the task from being worked on.
+        - `feasibility-assessed`: The technical feasibility has been assessed, and any significant architectural concerns have been addressed.
+        - `resource-availability`: The necessary resources (personnel, environments, tools, etc.) are available to work on the task.
+        - `prioritization`: The task is prioritized in the backlog and scheduled for an upcoming sprint.
+        - `small-enough`: The task is small enough to be completed in one sprint, adhering to the team's past velocity and capacity.
+
         ## Definition of done
 
-        - label: `code-complete` The code for the user task is fully written and checked into the version control system.
-        - label: `code-reviewd` The code has been reviewed by another team member, and any necessary changes have been made.
-        - label: `unit-tests` Unit tests have been written for the new code, and all tests are passing.
-        - label: `integration-tests` The code integrates correctly with the existing system, and any integration tests are passing.
-        - label: `functional-tests` The user task has been tested against its acceptance criteria, and it meets the expected functionality.
-        - label: `docs` Any necessary documentation has been updated or completed. This could include inline code comments, external technical documentation, or end-user documentation.
-        - label: `known-bugs` The task does not have any known bugs or if it does, they have been properly captured in a separate issue, if not fixed;
-        - label: `sandbox-deploy` The code has been deployed to a staging environment that closely resembles production.
+        - `code-complete` The code for the user task is fully written and checked into the version control system.
+        - `code-reviewd` The code has been reviewed by another team member, and any necessary changes have been made.
+        - `unit-tests` Unit tests have been written for the new code, and all tests are passing.
+        - `integration-tests` The code integrates correctly with the existing system, and any integration tests are passing.
+        - `functional-tests` The user task has been tested against its acceptance criteria, and it meets the expected functionality.
+        - `docs` Any necessary documentation has been updated or completed. This could include inline code comments, external technical documentation, or end-user documentation.
+        - `known-bugs` The task does not have any known bugs or if it does, they have been properly captured in a separate issue, if not fixed;
+        - `sandbox-deploy` The code has been deployed to a staging environment that closely resembles production.
   
