@@ -1,19 +1,18 @@
 name: node
-title: "[node]: "
 description: "elon-2 gh-issue"
-labels: "elon-2:node"
 assignees: "diogobaltazar"
-projects: ["diogo"]
+projects: ["projects/2"]
 body:
   - type: markdown
     attributes:
       value: |
-        Node Issue
+        elon-2 Node
 
   - type: textarea
     id: about
     attributes:
       label: About
+      value: test
       placeholder: Describe what the issue is about
     validations:
       required: true
