@@ -56,7 +56,17 @@ body:
         - label: known-bugs
         - label: sandbox-deploy
       description: |
-        Complete where it applies:
+    validations:
+      required: true
+
+  - type: textarea
+    id: readme
+    attributes:
+      label: README
+      description: Read below to learn about how to complete the node information
+      value: |
+        Definition of done
+
         - label: `code-complete` The code for the user task is fully written and checked into the version control system.
         - label: `code-reviewd` The code has been reviewed by another team member, and any necessary changes have been made.
         - label: `unit-tests` Unit tests have been written for the new code, and all tests are passing.
