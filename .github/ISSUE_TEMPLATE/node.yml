@@ -38,14 +38,14 @@ body:
     attributes:
       label: Acceptance Criteria
       options:
-        - label: [AC1] clarity
-        - label: [AC2] business-value
-        - label: [AC3] no-dependencies
-        - label: [AC4] no-blockers
-        - label: [AC5] feasibility-assessed
-        - label: [AC6] resource-availability
-        - label: [AC7] prioritization
-        - label: [AC8] small-enough
+        - label: (AC1) clarity
+        - label: (AC2) business-value
+        - label: (AC3) no-dependencies
+        - label: (AC4) no-blockers
+        - label: (AC5) feasibility-assessed
+        - label: (AC6) resource-availability
+        - label: (AC7) prioritization
+        - label: (AC8) small-enough
     validations:
       required: true
 
@@ -54,14 +54,14 @@ body:
     attributes:
       label: Definition of done
       options:
-        - label: [DOD1] code-complete
-        - label: [DOD2] code-reviewed
-        - label: [DOD3] unit-tests
-        - label: [DOD4] integration-tests
-        - label: [DOD5] functional-tests
-        - label: [DOD6] docs
-        - label: [DOD7] known-bugs
-        - label: [DOD8] sandbox-deploy
+        - label: (DOD1) code-complete
+        - label: (DOD2) code-reviewed
+        - label: (DOD3) unit-tests
+        - label: (DOD4) integration-tests
+        - label: (DOD5) functional-tests
+        - label: (DOD6) docs
+        - label: (DOD7) known-bugs
+        - label: (DOD8) sandbox-deploy
     validations:
       required: true
 
